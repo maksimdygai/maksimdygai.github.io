@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.header {
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+.header__nav {
+  padding: 1em 0;
+}
+.header__nav-list {
+  list-style: none;
+  padding: 0;
+}
+.header__nav-link {
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: inherit;
+}
+.logo {
+  max-width: 240px;
+}

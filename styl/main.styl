@@ -1,0 +1,39 @@
+// RESETS
+
+body
+	margin 0
+
+// FONT FACE
+
+@font-face
+    font-family 'Uni Sans Heavy Italic'
+    src url('../fonts/uni_sans/uni_sans_heavy_italic.eot')
+    src url('../fonts/uni_sans/uni_sans_heavy_italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/uni_sans/uni_sans_heavy_italic.woff') format('woff'),
+        url('../fonts/uni_sans/uni_sans_heavy_italic.ttf') format('truetype'),
+        url('../fonts/uni_sans/uni_sans_heavy_italic.svg#uni_sans_heavy_italic') format('svg')
+    font-weight normal
+    font-style italic
+
+// CONTENT
+
+.container
+	max-width 1024px
+	margin 0 auto
+
+.header
+	margin 10% 0 0 0
+	text-align center
+	&__nav
+		padding 1em 0
+	&__nav-list
+		list-style none
+		padding 0
+	&__nav-link
+		padding 1em
+		text-decoration none
+		text-transform uppercase
+		font bold italic 1.5em 'Uni Sans Heavy Italic', sans-serif
+		color inherit
+.logo
+	max-width 240px 
