@@ -23,8 +23,11 @@ body {
   list-style: none;
   padding: 0;
 }
+.header__nav-item {
+  display: inline-block;
+}
 .header__nav-link {
-  padding: 1em;
+  padding: 1em 0.4em;
   text-decoration: none;
   text-transform: uppercase;
   font: bold italic 1.5em 'Uni Sans Heavy Italic', sans-serif;
@@ -32,4 +35,15 @@ body {
 }
 .logo {
   max-width: 240px;
+}
+.progress {
+  position: relative;
+}
+.progress:after {
+  content: "progress";
+  position: absolute;
+  top: 15px;
+  right: -15px;
+  font-size: 10px;
+  color: #c00;
 }

@@ -15,6 +15,7 @@ body
     font-weight normal
     font-style italic
 
+
 // CONTENT
 
 .container
@@ -29,11 +30,25 @@ body
     &__nav-list
         list-style none
         padding 0
+    &__nav-item
+        display inline-block
     &__nav-link
-        padding 1em
+        padding 1em .4em
         text-decoration none
         text-transform uppercase
         font bold italic 1.5em 'Uni Sans Heavy Italic', sans-serif
         color inherit
 .logo
-    max-width 240px 
+    max-width 240px
+
+// helpers
+
+.progress
+    position relative
+    &:after
+        content "progress"
+        position absolute
+        top 15px
+        right -15px
+        font-size 10px
+        color rgb(204, 0, 0)
